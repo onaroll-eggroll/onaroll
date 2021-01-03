@@ -91,12 +91,14 @@ PHONE SCREEN SIZE (START)
   .flavours_img_container {
     width: 100%;
     padding: 0 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
     max-width: 100%;
   }
 
   .flavours_img_row {
+    margin-left: 0px;
+    margin-right: 0px;
     max-width: 100%;
   }
 
@@ -249,6 +251,7 @@ PC SCREEN SIZE (START)
 
   .main_logo_img_container {
     font-size: 1rem;
+    margin: 0 0;
   }
 
   .main_logo_img {
@@ -263,7 +266,8 @@ PC SCREEN SIZE (START)
   FLAVOURS SECTION (START)
   ============================================================================================================================================= */
   .available_now_container {
-    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
   }
 
@@ -284,7 +288,6 @@ PC SCREEN SIZE (START)
 
   .flavours_img_container {
     width: 100%;
-    padding: 0 0;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
@@ -295,7 +298,7 @@ PC SCREEN SIZE (START)
   }
 
   .flavours_img_col {
-    padding: 0 0;
+    align-items: center;
   }
 
   .flavours_img {
