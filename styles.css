@@ -125,7 +125,7 @@ PHONE SCREEN SIZE (START)
     max-width: 100%;
     background-image: url("image/about_goal_bg.png");
     background-size: cover;
-    }
+  }
 
   .about_section_paragraph_subheader {
     font-size: 4rem;
@@ -146,6 +146,36 @@ PHONE SCREEN SIZE (START)
     padding-right: 4rem;
     padding-left: 4rem;
     text-shadow: 2px 2px white;
+  }
+
+  .social_media_section {
+    margin-top: 8%;
+    background-color: #fffcd7;
+    border-radius: 35px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .contact_button {
+    width: 400px;
+    height: 150px;
+    border-radius: 80px;
+    font-size: 4rem;
+    background-color: white;
+  }
+
+  .social_media_icon {
+    width: 100px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 3%;
+  }
+
+  .social_media_icon_text {
+    font-size: 4rem;
+    color: black;
+    background-color: white;
   }
 
   /* =============================================================================================================================================
@@ -177,21 +207,14 @@ PHONE SCREEN SIZE (START)
   /* =============================================================================================================================================
   SOCIAL MEDIA SECTION (START)
   ============================================================================================================================================= */
-  .social_media_container{
+  .social_media_container {
     text-align: center;
     max-width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #fffcd7;
-
   }
 
-  .social_media_icon {
-    width: 100px;
-  }
-  .social_media_icon_text{
-    font-size: 3rem;
-  }
   /* =============================================================================================================================================
   SOCIAL MEDIA SECTION (END)
   ============================================================================================================================================= */
@@ -200,7 +223,6 @@ PHONE SCREEN SIZE (START)
 /* #############################################################################################################################################
 PHONE SCREEN SIZE (END)
 ############################################################################################################################################# */
-
 /* #############################################################################################################################################
 PC SCREEN SIZE (START)
 ############################################################################################################################################# */
@@ -346,7 +368,35 @@ PC SCREEN SIZE (START)
     padding-left: 2rem;
     text-shadow: 2px 2px white;
   }
+  .social_media_section {
+    margin-top: 8%;
+    background-color: #fffcd7;
+    border-radius: 35px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
 
+  .contact_button {
+    width: 220px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 2rem;
+    background-color: white;
+  }
+
+  .social_media_icon {
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 3%;
+  }
+
+  .social_media_icon_text {
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+  }
   /* =============================================================================================================================================
   ABOUT SECTION (END)
   ============================================================================================================================================= */
@@ -362,7 +412,6 @@ PC SCREEN SIZE (START)
   .order_section_order_text {
     font-size: 2rem;
     margin-bottom: 5%;
-
   }
 
   .order_button {
