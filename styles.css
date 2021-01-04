@@ -196,8 +196,9 @@ PHONE SCREEN SIZE (START)
   }
 
   .order_button {
-    font-size: 5rem;
-    width: 350px;
+    font-size: 7rem;
+    width: 400px;
+    height: 200px;
     border-radius: 100px;
   }
 
@@ -416,8 +417,9 @@ PC SCREEN SIZE (START)
 
   .order_button {
     font-size: 3rem;
-    width: 300px;
-    border-radius: 100px;
+    width: 200px;
+    height: 90px;
+    border-radius: 80px;
   }
 
   /* =============================================================================================================================================
