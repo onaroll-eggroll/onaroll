@@ -99,19 +99,19 @@ PHONE SCREEN SIZE (START)
     top: 500px;
   }
 
-  .flavours_img_container {
+  /* .flavours_img_container {
     width: 100%;
     padding: 0 0;
     margin-left: 0px;
     margin-right: 0px;
     max-width: 100%;
-  }
+  } */
 
-  .flavours_img_row {
+  /* .flavours_img_row {
     margin-left: 0px;
     margin-right: 0px;
     max-width: 100%;
-  }
+  } */
 
   .flavours_img_col {
     padding: 0 0;
@@ -403,6 +403,8 @@ PC SCREEN SIZE (START)
     font-size: 2rem;
     margin-top: 5%;
   }
+
+
 
   .about_section_paragraph {
     margin: 3% auto;
