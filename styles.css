@@ -84,8 +84,19 @@ PHONE SCREEN SIZE (START)
   } */
   .available_now_header {
     margin-top: 23rem;
-    font-size: 8rem;
+    font-size: 5rem;
     color: #686868;
+  }
+
+  .egg_roll_image_container{
+    text-align: center;
+    margin: auto auto 1000px;
+  }
+  .plain_rolls_img {
+    width: 100%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 500px;
   }
 
   .flavours_img_container {
@@ -337,8 +348,19 @@ PC SCREEN SIZE (START)
 
   .available_now_header {
     margin-top: 10.5rem;
-    font-size: 5rem;
+    font-size: 6rem;
     color: #686868;
+  }
+
+  .egg_roll_image_container{
+    text-align: center;
+    margin: 7% auto;
+  }
+  .plain_rolls_img {
+    width: 95%;
+    transform: rotate(0deg);
+    position: relative;
+    top: 20px;
   }
 
   .flavours_img_container {
