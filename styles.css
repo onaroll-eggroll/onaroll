@@ -84,7 +84,7 @@ PHONE SCREEN SIZE (START)
   } */
   .available_now_header {
     margin-top: 23rem;
-    font-size: 5rem;
+    font-size: 6rem;
     color: #686868;
   }
 
@@ -128,11 +128,12 @@ PHONE SCREEN SIZE (START)
   ABOUT SECTION (START)
   ============================================================================================================================================= */
   .about_section_header {
-    font-size: 8rem;
+    font-size: 6rem;
     text-shadow: 2px 2px white;
   }
 
   .about_name_section_container {
+    margin-top: 300px;
     max-width: 100%;
     background-image: url("image/about_goal_bg.png");
     background-size: cover;
@@ -158,20 +159,20 @@ PHONE SCREEN SIZE (START)
   }
 
   .social_media_section {
-    margin-top: 15%;
     background-color: #fffcd7;
-    border-radius: 35px;
-    padding-top: 5%;
-    padding-bottom: 5%;
     text-align: center;
+    margin-top: 5%;
+    padding: 0 0;
+    padding-bottom: 7%;
   }
 
   .contact_button {
     width: 400px;
-    height: 150px;
+    height: 120px;
     border-radius: 80px;
-    font-size: 4rem;
+    font-size: 3rem;
     background-color: white;
+    margin: 5% auto;
   }
 
   .social_media_icon {
@@ -189,6 +190,7 @@ PHONE SCREEN SIZE (START)
 
   .social_media_ig_hashtag {
     color: black;
+    font-size: 3rem;
   }
 
   /* =============================================================================================================================================
@@ -206,6 +208,8 @@ PHONE SCREEN SIZE (START)
   .order_section_order_text {
     font-size: 3rem;
     margin-bottom: 15%;
+    margin: auto auto;
+    width: 400px;
   }
 
   .order_button {
@@ -229,6 +233,14 @@ PHONE SCREEN SIZE (START)
     background-color: #fffcd7;
   }
 
+  .social_media_about_link_div {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  .about_link {
+    color: black;
+    font-size: 6rem;
+  }
   /* =============================================================================================================================================
   SOCIAL MEDIA SECTION (END)
   ============================================================================================================================================= */
@@ -348,7 +360,7 @@ PC SCREEN SIZE (START)
 
   .available_now_header {
     margin-top: 10.5rem;
-    font-size: 6rem;
+    font-size: 4rem;
     color: #686868;
   }
 
@@ -357,7 +369,7 @@ PC SCREEN SIZE (START)
     margin: 7% auto;
   }
   .plain_rolls_img {
-    width: 95%;
+    width: 80%;
     transform: rotate(0deg);
     position: relative;
     top: 20px;
@@ -389,11 +401,12 @@ PC SCREEN SIZE (START)
   ABOUT SECTION (START)
   ============================================================================================================================================= */
   .about_section_header {
-    font-size: 5rem;
+    font-size: 4rem;
     text-shadow: 2px 2px white;
   }
 
   .about_name_section_container {
+    margin-top: 100px;
     max-width: 100%;
     background-image: url("image/about_goal_bg.png");
     background-size: cover;
@@ -425,17 +438,17 @@ PC SCREEN SIZE (START)
   }
 
   .social_media_section {
-    margin-top: 8%;
     background-color: #fffcd7;
-    border-radius: 35px;
-    padding-top: 5%;
-    padding-bottom: 5%;
     text-align: center;
+    margin-top: 5%;
+    padding: 0 0;
+    padding-bottom: 5%;
+    position: relative;
   }
 
   .contact_button {
     width: 220px;
-    height: 90px;
+    height: 70px;
     border-radius: 50px;
     font-size: 2rem;
     background-color: white;
@@ -445,15 +458,27 @@ PC SCREEN SIZE (START)
     width: 50px;
     background-color: white;
     border-radius: 5px;
-    margin-top: 3%;
   }
 
   .social_media_icon_text {
-    font-size: 2rem;
+    font-size: 3rem;
     color: black;
     background-color: white;
   }
 
+  .social_media_ig_hashtag {
+    color: black;
+    font-size: 2rem;
+  }
+
+  .social_media_about_link_div {
+    padding-top: 2%;
+    padding-bottom: 1%;
+  }
+  .about_link {
+    color: black;
+    font-size: 4rem;
+  }
   /* =============================================================================================================================================
   ABOUT SECTION (END)
   ============================================================================================================================================= */
@@ -469,6 +494,8 @@ PC SCREEN SIZE (START)
   .order_section_order_text {
     font-size: 2rem;
     margin-bottom: 5%;
+    margin: auto auto;
+    width: 500px;
   }
 
   .order_button {
