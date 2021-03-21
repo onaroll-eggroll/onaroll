@@ -76,12 +76,14 @@ PHONE SCREEN SIZE (START)
   }
 
   .available_now_col {
-    width: 460px;
+    padding-left: auto;
+    padding-right: auto;
   }
 
-  /* .available_now_col_side {
+  .available_now_col_side {
     width: 5px;
-  } */
+  }
+
   .available_now_header {
     margin-top: 23rem;
     font-size: 6rem;
