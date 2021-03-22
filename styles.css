@@ -13,6 +13,7 @@ PHONE SCREEN SIZE (START)
 
   a {
     color: #16c79a;
+
   }
 
   .alt_font {
@@ -159,7 +160,10 @@ PHONE SCREEN SIZE (START)
     padding-right: 4rem;
     padding-left: 4rem;
   }
-
+  .qna_class {
+    color: black;
+    font-size: 4rem;
+  }
   .social_media_section {
     background-color: #fffcd7;
     text-align: center;
@@ -439,6 +443,10 @@ PC SCREEN SIZE (START)
     padding-right: 10rem;
     padding-left: 2rem;
   }
+  .qna_class {
+    color: black;
+    font-size: 3rem;
+  }
 
   .social_media_section {
     background-color: #fffcd7;
@@ -480,7 +488,7 @@ PC SCREEN SIZE (START)
   }
   .about_link {
     color: black;
-    font-size: 4rem;
+    font-size: 5rem;
   }
   /* =============================================================================================================================================
   ABOUT SECTION (END)
