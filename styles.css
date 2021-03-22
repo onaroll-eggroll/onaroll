@@ -373,7 +373,7 @@ PC SCREEN SIZE (START)
 
   .plain_rolls_img {
     width: 80%;
-    transform: rotate(180deg);
+    transform: rotate(0deg);
     position: relative;
     top: 20px;
   }
