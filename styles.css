@@ -370,9 +370,10 @@ PC SCREEN SIZE (START)
     text-align: center;
     margin: 7% auto;
   }
+
   .plain_rolls_img {
     width: 80%;
-    transform: rotate(0deg);
+    transform: rotate(180deg);
     position: relative;
     top: 20px;
   }
