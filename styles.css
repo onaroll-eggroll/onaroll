@@ -93,13 +93,16 @@ PHONE SCREEN SIZE (START)
 
   .egg_roll_image_container{
     text-align: center;
-    margin: auto auto 1000px;
+    margin: auto auto 850px;
+    /* height: 00px; */
+
   }
   .plain_rolls_img {
     width: 100%;
-    transform: rotate(90deg);
+    transform: rotate(135deg);
     position: relative;
     top: 500px;
+    margin-bottom: 20%;
   }
 
   /* .flavours_img_container {
@@ -242,6 +245,8 @@ PHONE SCREEN SIZE (START)
   .social_media_about_link_div {
     padding-top: 6%;
     padding-bottom: 6%;
+    margin: auto auto;
+    text-align: center;
   }
   .about_link {
     color: black;
@@ -380,6 +385,7 @@ PC SCREEN SIZE (START)
     transform: rotate(180deg);
     position: relative;
     top: 20px;
+    margin-bottom: 5%;
   }
 
   .flavours_img_container {
