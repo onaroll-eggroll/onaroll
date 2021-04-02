@@ -13,7 +13,6 @@ PHONE SCREEN SIZE (START)
 
   a {
     color: #16c79a;
-
   }
 
   .alt_font {
@@ -181,8 +180,7 @@ PHONE SCREEN SIZE (START)
 
   .social_media_icon_text {
     font-size: 4rem;
-    color: black;
-    background-color: white;
+
   }
 
   .social_media_ig_hashtag {
@@ -273,14 +271,18 @@ PHONE SCREEN SIZE (START)
   }
 
   .smaller_text{
-    font-size: 2rem;
-    margin-bottom: -15%;
+    font-size: 2.5rem;
+    margin-bottom: -25%;
   }
 
-  .bigger_text{
-    font-size: 3rem;
+  .link_size {
+    font-size: 4rem;
+    color: #16c79a;
   }
 
+  .about_bigger_header {
+    font-size: 5rem;
+  }
   /* =============================================================================================================================================
   ORDER QNA SECTION (END)
   ============================================================================================================================================= */
@@ -478,8 +480,7 @@ PC SCREEN SIZE (START)
 
   .social_media_icon_text {
     font-size: 3rem;
-    color: black;
-    background-color: white;
+
   }
 
   .social_media_ig_hashtag {
