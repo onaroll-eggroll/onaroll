@@ -93,8 +93,9 @@ PHONE SCREEN SIZE (START)
 
   .egg_roll_image_container{
     text-align: center;
-    margin: auto auto 850px;
-    /* height: 00px; */
+    margin: 0 auto;
+    margin-bottom: 850px;
+    height: 500px;
 
   }
   .plain_rolls_img {
@@ -105,19 +106,6 @@ PHONE SCREEN SIZE (START)
     margin-bottom: 20%;
   }
 
-  /* .flavours_img_container {
-    width: 100%;
-    padding: 0 0;
-    margin-left: 0px;
-    margin-right: 0px;
-    max-width: 100%;
-  } */
-
-  /* .flavours_img_row {
-    margin-left: 0px;
-    margin-right: 0px;
-    max-width: 100%;
-  } */
 
   .flavours_img_col {
     padding: 0 0;
@@ -286,7 +274,7 @@ PHONE SCREEN SIZE (START)
 
   .smaller_text{
     font-size: 2rem;
-    margin-bottom: -20%;
+    margin-bottom: -15%;
   }
 
   .bigger_text{
