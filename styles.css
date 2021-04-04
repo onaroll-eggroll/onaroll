@@ -168,6 +168,8 @@ PHONE SCREEN SIZE (START)
     border-radius: 80px;
     font-size: 3rem;
     background-color: #16c79a;
+    color: white;
+    border-color: white;
     margin: 5% auto;
   }
 
