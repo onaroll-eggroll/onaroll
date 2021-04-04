@@ -217,16 +217,16 @@ PHONE SCREEN SIZE (START)
   }
 
   .buy_dropdown_button{
-    width: 750px;
-    height: 200px;
-    font-size: 5rem;
+    width: 700px;
+    height: 180px;
+    font-size: 4rem;
     margin: 10% auto;
   }
 
   .dropdown-menu{
-    width: 750px;
+    width: 700px;
     height: 150px;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
   }
 
