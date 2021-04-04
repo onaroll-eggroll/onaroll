@@ -167,7 +167,7 @@ PHONE SCREEN SIZE (START)
     height: 120px;
     border-radius: 80px;
     font-size: 3rem;
-    background-color: white;
+    background-color: #16c79a;
     margin: 5% auto;
   }
 
@@ -282,6 +282,13 @@ PHONE SCREEN SIZE (START)
 
   .about_bigger_header {
     font-size: 5rem;
+  }
+
+  .buy_social_text {
+    padding-top: 5%;
+    color: black;
+
+
   }
   /* =============================================================================================================================================
   ORDER QNA SECTION (END)
@@ -469,7 +476,7 @@ PC SCREEN SIZE (START)
     height: 70px;
     border-radius: 50px;
     font-size: 2rem;
-    background-color: white;
+    background-color: #16c79a;
   }
 
   .social_media_icon {
