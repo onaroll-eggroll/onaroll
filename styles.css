@@ -226,7 +226,6 @@ PHONE SCREEN SIZE (START)
 
   .dropdown-menu{
     width: 700px;
-    height: 130px;
     font-size: 4rem;
     text-align: center;
   }
@@ -236,7 +235,6 @@ PHONE SCREEN SIZE (START)
     padding-left: auto;
     padding-right: auto;
     margin: 20% auto;
-
   }
 
   /* =============================================================================================================================================
