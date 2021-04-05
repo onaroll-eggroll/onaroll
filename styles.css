@@ -221,6 +221,7 @@ PHONE SCREEN SIZE (START)
     height: 150px;
     font-size: 4rem;
     margin: 10% auto;
+    background-color: #16c79a;
   }
 
   .dropdown-menu{
@@ -228,6 +229,14 @@ PHONE SCREEN SIZE (START)
     height: 130px;
     font-size: 4rem;
     text-align: center;
+  }
+
+  .buy_button_div{
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 20% auto;
+
   }
 
   /* =============================================================================================================================================
