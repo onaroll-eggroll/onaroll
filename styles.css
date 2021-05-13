@@ -463,7 +463,7 @@ PC SCREEN SIZE (START)
   }
 
   .about_section_paragraph_subheader {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 5%;
   }
 
@@ -556,6 +556,24 @@ PC SCREEN SIZE (START)
     width: 200px;
     height: 90px;
     border-radius: 80px;
+  }
+
+  .buy_dropdown_button{
+    width: 250px;
+    height: 80px;
+    font-size: 1.5rem;
+    margin: 10% auto;
+    background-color: #16c79a;
+  }
+
+  .dropdown-menu{
+    width: 250px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .bigger_text {
+    font-size: 1.5rem;
   }
 
   /* =============================================================================================================================================
