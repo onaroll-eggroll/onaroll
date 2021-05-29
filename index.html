@@ -53,8 +53,11 @@
   </div>
 
   <div class="egg_roll_image_container">
-    <img onclick="myFunction()" class="plain_rolls_img" src="image/flavours/Plain/Original2.png" alt="">
-    <img onclick="myFunction2()" class="plain_rolls_img" src="image/flavours/Plain/Chunky Original.png" alt="">
+    <img onclick="originalchunky()" class="plain_rolls_img" src="image/flavours/Plain/Chunky Original.png" alt="">
+    <img onclick="originallong()" class="plain_rolls_img" src="image/flavours/Plain/Original2.png" alt="">
+    <img onclick="darkroll()" class="plain_rolls_img" src="image/flavours/Plain/dark.png" alt="">
+    <img onclick="chocoroll()" class="plain_rolls_img" src="image/flavours/Plain/choco.png" alt="">
+
   </div>
 
   <div class="container available_now_container">
@@ -75,14 +78,26 @@
 
   <!-- EGG ROLL DESCRIPTION START -->
   <script>
-    function myFunction() {
-      alert('"ORIGINAL" (Long Rolls)\n\nEggy goodness! Flaky, almost cakey, with a light crisp.\nPack of 10 rolls - $15');
+    function originallong() {
+      alert('"ORIGINAL" (Long Rolls)\nBox of 10 rolls - $15\n\nFlaky, almost cakey, with a light crisp.\nPerfect for dipping in your favouite hot beverage.\n\nTaste the eggy goodness with reduced sugar!\nMade with the freshest eggs and top-quality French butter.');
     }
   </script>
 
   <script>
-    function myFunction2() {
-      alert('"ORIGINAL" (Chunky Rolls)\n\nEggy goodness! Thicker, flaky with a more intense crisp.\nPack of 10 rolls - $15');
+    function originalchunky() {
+      alert('"ORIGINAL" (Chunky Rolls)\nBox of 10 rolls - $15\n\nThicker with a more intense crispiness.\nEvery bite provides a satisfying, crispy mouthfeel!\n\nTaste the eggy goodness with reduced sugar!\nMade with the freshest eggs and top-quality French butter.');
+    }
+  </script>
+
+  <script>
+    function darkroll() {
+      alert('"DARK"\nBox of 10 rolls - $23\n\n100% Cacao. Unadulterated taste of chocolate.\nBitterness mellows out to gentle sweetness. Not for the faint hearted.\n\n* We use only real, premium quality chocolate, not cheap chocolate compound.');
+    }
+  </script>
+
+  <script>
+    function chocoroll() {
+      alert('"CHOCO"\nBox of 10 rolls - $20\n\nPremium quality milk chocolate with every bite! \nSure to satisfy any chocolate lover with a sweet tooth!\n\n* We use only real, premium quality chocolate, not cheap chocolate compound.');
     }
   </script>
   <!-- EGG ROLL DESCRIPTION END -->
@@ -102,7 +117,7 @@
       <h2 class="qna_class alt_font link_size about_bigger_header">Q & A</h2>
     </a>
 
-    <p class="order_section_order_text alt_font">Questions & Answers</p>
+    <p id="deliveryDates" class="order_section_order_text alt_font">Questions & Answers</p>
 
     <img class="hr_logo" src="image/OAR standalone logo.png" alt="">
 
@@ -120,24 +135,29 @@
           <h1 class="about_section_header"><u>Order</u></h1>
           <div class="alt_font">
 
+            <img class="calendar" src="image/june21.jpg" alt="">
+
             <div class="btn-group">
-              <button id="deliveryDates" class="btn btn-secondary btn-lg dropdown-toggle buy_dropdown_button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="btn btn-secondary btn-lg dropdown-toggle buy_dropdown_button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Delivery Dates
               </button>
               <ul class="dropdown-menu">
-                <li>Unavailable</li>
-                <!-- <li><a href="buy_01.html">14th May 2021</a></li> -->
-                <!-- <li><a href="buy_02.html">15th May 2021</a></li> -->
-                <!-- <li><a href="buy_03.html">16th May 2021</a></li> -->
-                <!-- <li><a href="buy_04.html">18th May 2021</a></li> -->
-                <!-- <li><a href="buy_05.html">21st May 2021</a></li> -->
-                <!-- <li><a href="buy_06.html">22nd May 2021</a></li> -->
-                <!-- <li><a href="buy_07.html">23rd May 2021</a></li> -->
-                <!-- <li><a href="buy_08.html">25th May 2021</a></li> -->
-                <!-- <li><a href="buy_09.html">28th May 2021</a></li> -->
-                <!-- <li><a href="buy_10.html">29th May 2021</a></li> -->
-                <!-- <li><a href="buy_11.html">30th May 2021</a></li> -->
-
+                <li><a href="buy_01.html">04th June 2021</a></li>
+                <li><a href="buy_02.html">05th June 2021</a></li>
+                <li><a href="buy_03.html">06th June 2021</a></li>
+                <li><a href="buy_04.html">08th June 2021</a></li>
+                <li><a href="buy_05.html">11th June 2021</a></li>
+                <li><a href="buy_06.html">12th June 2021</a></li>
+                <li><a href="buy_07.html">13th June 2021</a></li>
+                <li><a href="buy_08.html">15th June 2021</a></li>
+                <li><a href="buy_09.html">18th June 2021</a></li>
+                <li><a href="buy_10.html">19th June 2021</a></li>
+                <li><a href="buy_11.html">20th June 2021</a></li>
+                <li><a href="buy_12.html">22nd June 2021</a></li>
+                <li><a href="buy_13.html">25th June 2021</a></li>
+                <li><a href="buy_14.html">26th June 2021</a></li>
+                <li><a href="buy_15.html">27th June 2021</a></li>
+                <li><a href="buy_16.html">29th June 2021</a></li>
               </ul>
             </div>
 

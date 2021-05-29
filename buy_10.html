@@ -29,7 +29,7 @@
           </div>
           <div class="col available_now_col">
             <a href="index.html"> <img class="qna_logo_img" src="image\OAR TitleLogo.png" alt="On a Roll logo"></a>
-            <h1 class="order_qna_section_header">Deliver on :<br>29th May 2021</h1>
+            <h1 class="order_qna_section_header">Deliver on :<br>19th June 2021</h1>
           </div>
           <div class="col available_now_col_side">
           </div>
@@ -53,216 +53,218 @@
           <div class="buy_button_div">
 
             <!-- BUY BUTTON START -->
-            <div id='product-component-1619669802837'></div>
+            <div id='product-component-1622111684465'></div>
             <script type="text/javascript">
-            /*<![CDATA[*/
-            (function () {
-              var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-              if (window.ShopifyBuy) {
-                if (window.ShopifyBuy.UI) {
-                  ShopifyBuyInit();
+              /*<![CDATA[*/
+              (function() {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                  if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                  } else {
+                    loadScript();
+                  }
                 } else {
                   loadScript();
                 }
-              } else {
-                loadScript();
-              }
-              function loadScript() {
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = scriptURL;
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                script.onload = ShopifyBuyInit;
-              }
-              function ShopifyBuyInit() {
-                var client = ShopifyBuy.buildClient({
-                  domain: 'on-a-roll-egg-rolls.myshopify.com',
-                  storefrontAccessToken: '8ab5e845da5ab66a98b325277620e500',
-                });
-                ShopifyBuy.UI.onReady(client).then(function (ui) {
-                  ui.createComponent('product', {
-                    id: '6634284449978',
-                    node: document.getElementById('product-component-1619669802837'),
-                    moneyFormat: '%24%7B%7Bamount%7D%7D',
-                    options: {
-              "product": {
-                "styles": {
-                  "product": {
-                    "@media (min-width: 601px)": {
-                      "max-width": "calc(25% - 20px)",
-                      "margin-left": "20px",
-                      "margin-bottom": "50px"
-                    },
-                    "text-align": "left"
-                  },
-                  "title": {
-                    "font-size": "3rem"
-                  },
-                  "button": {
-                    "font-size": "3rem",
-                    "padding-top": "20px",
-                    "padding-bottom": "20px",
-                    ":hover": {
-                      "background-color": "#14b38b"
-                    },
-                    "background-color": "#16c79a",
-                    ":focus": {
-                      "background-color": "#14b38b"
-                    },
-                    "padding-left": "100px",
-                    "padding-right": "100px"
-                  },
-                  "quantityInput": {
-                    "font-size": "3rem",
-                    "width": "100px",
-                    "padding-top": "20px",
-                    "padding-bottom": "20px"
-                  },
-                  "price": {
-                    "font-size": "4rem",
-                    "padding-top": "20px",
-                    "padding-bottom": "20px"
-                  },
-                  "compareAt": {
-                    "font-size": "3rem"
-                  },
-                  "unitPrice": {
-                    "font-size": "3rem"
-                  }
-                },
-                "contents": {
-                  "button": false,
-                  "buttonWithQuantity": true
-                },
-                "width": "580px",
-                "text": {
-                  "button": "Add to cart"
+
+                function loadScript() {
+                  var script = document.createElement('script');
+                  script.async = true;
+                  script.src = scriptURL;
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                  script.onload = ShopifyBuyInit;
                 }
-              },
-              "productSet": {
-                "styles": {
-                  "products": {
-                    "@media (min-width: 601px)": {
-                      "margin-left": "-20px"
-                    }
-                  }
-                }
-              },
-              "modalProduct": {
-                "contents": {
-                  "img": false,
-                  "imgWithCarousel": true,
-                  "button": false,
-                  "buttonWithQuantity": true
-                },
-                "styles": {
-                  "product": {
-                    "@media (min-width: 601px)": {
-                      "max-width": "100%",
-                      "margin-left": "0px",
-                      "margin-bottom": "0px"
-                    }
-                  },
-                  "button": {
-                    "font-size": "3rem",
-                    "padding-top": "17px",
-                    "padding-bottom": "17px",
-                    ":hover": {
-                      "background-color": "#14b38b"
-                    },
-                    "background-color": "#16c79a",
-                    ":focus": {
-                      "background-color": "#14b38b"
-                    },
-                    "padding-left": "100px",
-                    "padding-right": "100px"
-                  },
-                  "quantityInput": {
-                    "font-size": "3rem",
-                    "padding-top": "17px",
-                    "padding-bottom": "17px"
-                  },
-                  "title": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "bold",
-                    "font-size": "15rem",
-                    "color": "#4c4c4c"
-                  },
-                  "price": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "normal",
-                    "font-size": "3rem",
-                    "color": "#4c4c4c"
-                  },
-                  "compareAt": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "normal",
-                    "font-size": "3rem",
-                    "color": "#4c4c4c"
-                  },
-                  "unitPrice": {
-                    "font-family": "Helvetica Neue, sans-serif",
-                    "font-weight": "normal",
-                    "font-size": "3rem",
-                    "color": "#4c4c4c"
-                  }
-                },
-                "text": {
-                  "button": "Add to cart"
-                }
-              },
-              "option": {},
-              "cart": {
-                "styles": {
-                  "button": {
-                    "font-size": "3rem",
-                    "padding-top": "17px",
-                    "padding-bottom": "17px",
-                    ":hover": {
-                      "background-color": "#14b38b"
-                    },
-                    "background-color": "#16c79a",
-                    ":focus": {
-                      "background-color": "#14b38b"
-                    }
-                  }
-                },
-                "text": {
-                  "total": "Subtotal",
-                  "button": "Checkout"
-                }
-              },
-              "toggle": {
-                "styles": {
-                  "toggle": {
-                    "background-color": "#16c79a",
-                    ":hover": {
-                      "background-color": "#14b38b"
-                    },
-                    ":focus": {
-                      "background-color": "#14b38b"
-                    }
-                  },
-                  "count": {
-                    "font-size": "6rem",
-                    "width": "100px"
-                  }
-                }
-              }
-            },
+
+                function ShopifyBuyInit() {
+                  var client = ShopifyBuy.buildClient({
+                    domain: 'on-a-roll-egg-rolls.myshopify.com',
+                    storefrontAccessToken: '8ab5e845da5ab66a98b325277620e500',
                   });
-                });
-              }
-            })();
-            /*]]>*/
+                  ShopifyBuy.UI.onReady(client).then(function(ui) {
+                    ui.createComponent('product', {
+                      id: '6674492719290',
+                      node: document.getElementById('product-component-1622111684465'),
+                      moneyFormat: '%24%7B%7Bamount%7D%7D',
+                      options: {
+                        "product": {
+                          "styles": {
+                            "product": {
+                              "@media (min-width: 601px)": {
+                                "max-width": "calc(25% - 20px)",
+                                "margin-left": "20px",
+                                "margin-bottom": "50px"
+                              },
+                              "text-align": "left"
+                            },
+                            "title": {
+                              "font-size": "3rem"
+                            },
+                            "button": {
+                              "font-size": "3rem",
+                              "padding-top": "20px",
+                              "padding-bottom": "20px",
+                              ":hover": {
+                                "background-color": "#14b38b"
+                              },
+                              "background-color": "#16c79a",
+                              ":focus": {
+                                "background-color": "#14b38b"
+                              },
+                              "padding-left": "100px",
+                              "padding-right": "100px"
+                            },
+                            "quantityInput": {
+                              "font-size": "3rem",
+                              "width": "100px",
+                              "padding-top": "20px",
+                              "padding-bottom": "20px"
+                            },
+                            "price": {
+                              "font-size": "4rem",
+                              "padding-top": "20px",
+                              "padding-bottom": "20px"
+                            },
+                            "compareAt": {
+                              "font-size": "3rem"
+                            },
+                            "unitPrice": {
+                              "font-size": "3rem"
+                            }
+                          },
+                          "contents": {
+                            "button": false,
+                            "buttonWithQuantity": true
+                          },
+                          "width": "580px",
+                          "text": {
+                            "button": "Add to cart"
+                          }
+                        },
+                        "productSet": {
+                          "styles": {
+                            "products": {
+                              "@media (min-width: 601px)": {
+                                "margin-left": "-20px"
+                              }
+                            }
+                          }
+                        },
+                        "modalProduct": {
+                          "contents": {
+                            "img": false,
+                            "imgWithCarousel": true,
+                            "button": false,
+                            "buttonWithQuantity": true
+                          },
+                          "styles": {
+                            "product": {
+                              "@media (min-width: 601px)": {
+                                "max-width": "100%",
+                                "margin-left": "0px",
+                                "margin-bottom": "0px"
+                              }
+                            },
+                            "button": {
+                              "font-size": "3rem",
+                              "padding-top": "17px",
+                              "padding-bottom": "17px",
+                              ":hover": {
+                                "background-color": "#14b38b"
+                              },
+                              "background-color": "#16c79a",
+                              ":focus": {
+                                "background-color": "#14b38b"
+                              },
+                              "padding-left": "100px",
+                              "padding-right": "100px"
+                            },
+                            "quantityInput": {
+                              "font-size": "3rem",
+                              "padding-top": "17px",
+                              "padding-bottom": "17px"
+                            },
+                            "title": {
+                              "font-family": "Helvetica Neue, sans-serif",
+                              "font-weight": "bold",
+                              "font-size": "15rem",
+                              "color": "#4c4c4c"
+                            },
+                            "price": {
+                              "font-family": "Helvetica Neue, sans-serif",
+                              "font-weight": "normal",
+                              "font-size": "3rem",
+                              "color": "#4c4c4c"
+                            },
+                            "compareAt": {
+                              "font-family": "Helvetica Neue, sans-serif",
+                              "font-weight": "normal",
+                              "font-size": "3rem",
+                              "color": "#4c4c4c"
+                            },
+                            "unitPrice": {
+                              "font-family": "Helvetica Neue, sans-serif",
+                              "font-weight": "normal",
+                              "font-size": "3rem",
+                              "color": "#4c4c4c"
+                            }
+                          },
+                          "text": {
+                            "button": "Add to cart"
+                          }
+                        },
+                        "option": {},
+                        "cart": {
+                          "styles": {
+                            "button": {
+                              "font-size": "3rem",
+                              "padding-top": "17px",
+                              "padding-bottom": "17px",
+                              ":hover": {
+                                "background-color": "#14b38b"
+                              },
+                              "background-color": "#16c79a",
+                              ":focus": {
+                                "background-color": "#14b38b"
+                              }
+                            }
+                          },
+                          "text": {
+                            "total": "Subtotal",
+                            "button": "Checkout"
+                          }
+                        },
+                        "toggle": {
+                          "styles": {
+                            "toggle": {
+                              "background-color": "#16c79a",
+                              ":hover": {
+                                "background-color": "#14b38b"
+                              },
+                              ":focus": {
+                                "background-color": "#14b38b"
+                              }
+                            },
+                            "count": {
+                              "font-size": "6rem",
+                              "width": "100px"
+                            }
+                          }
+                        }
+                      },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
             </script>
             <!-- BUY BUTTON END -->
-          <p>
-          <br>  * Delivery fee is $8.<br>
-            <strong>* Free delivery for orders with 4 or more boxes!</strong><br>
-            * Egg rolls will be delivered by <em>3pm on date of delivery.</em>
-            <br>* Self pick-up (from Sembawang MRT Station) is available. <a href="order_qna.html#selfpickup">More information.</a>
-          </p>
+            <p>
+              <br>* <a href="order_qna.html#delivery">Delivery fee is $8.<br></a>
+              <strong>* Free delivery for orders with 4 or more boxes!</strong><br>
+              * Egg rolls will be delivered by <em>3 pm on the date of delivery.</em>
+              <br>* Self pick-up (from Sembawang MRT Station) is available. <a href="order_qna.html#selfpickup">More information.</a>
+            </p>
           </div>
 
           <div class="order_qna_section_paragraph alt_font">
@@ -271,7 +273,7 @@
             <ul>
               <li>Store your "On a Roll" egg rolls, in an air-tight container/ bag, in a cool environment.</li>
               <li>"On a Roll" egg rolls are best consumed within 7 days from the date of delivery.</li>
-              <li>If necessary, place "On a Roll" egg rolls in oven at 120°C for 5 - 8 minutes to freshen up their crisp.</li>
+              <li>If necessary, place "On a Roll" egg rolls in the oven at 120°C for 5 - 8 minutes to freshen up their crispiness.</li>
               <li>The "On a Roll" Kitchen works with a variety of nuts; <strong>all "On a Roll" egg rolls may contain traces of nuts.</strong> </li>
 
             </ul>

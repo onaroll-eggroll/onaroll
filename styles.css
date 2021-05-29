@@ -94,7 +94,7 @@ PHONE SCREEN SIZE (START)
     text-align: center;
     margin: 0 auto;
     margin-bottom: 850px;
-    height: 500px;
+    height: 1200px;
 
   }
   .plain_rolls_img {
@@ -359,6 +359,10 @@ PC SCREEN SIZE (START)
     opacity: 0.6;
   }
 
+  .calendar {
+    width: 500px;
+  }
+
   /* =============================================================================================================================================
   GLOBAL (END)
   ============================================================================================================================================= */
@@ -414,7 +418,7 @@ PC SCREEN SIZE (START)
 
   .egg_roll_image_container{
     text-align: center;
-    margin: 7% auto;
+    margin-bottom: -15%;
   }
 
   .plain_rolls_img {
