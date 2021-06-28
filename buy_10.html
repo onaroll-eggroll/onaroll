@@ -29,7 +29,7 @@
           </div>
           <div class="col available_now_col">
             <a href="index.html"> <img class="qna_logo_img" src="image\OAR TitleLogo.png" alt="On a Roll logo"></a>
-            <h1 class="order_qna_section_header">Deliver on :<br>19th June 2021</h1>
+            <h1 class="order_qna_section_header">Deliver on :<br>23rd July 2021</h1>
           </div>
           <div class="col available_now_col_side">
           </div>
@@ -53,40 +53,38 @@
           <div class="buy_button_div">
 
             <!-- BUY BUTTON START -->
-            <div id='product-component-1622111684465'></div>
+            <div id='product-component-1624868351886'></div>
             <script type="text/javascript">
-              /*<![CDATA[*/
-              (function() {
-                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                if (window.ShopifyBuy) {
-                  if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
-                  } else {
-                    loadScript();
-                  }
+            /*<![CDATA[*/
+            (function () {
+              var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+              if (window.ShopifyBuy) {
+                if (window.ShopifyBuy.UI) {
+                  ShopifyBuyInit();
                 } else {
                   loadScript();
                 }
-
-                function loadScript() {
-                  var script = document.createElement('script');
-                  script.async = true;
-                  script.src = scriptURL;
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                  script.onload = ShopifyBuyInit;
-                }
-
-                function ShopifyBuyInit() {
-                  var client = ShopifyBuy.buildClient({
-                    domain: 'on-a-roll-egg-rolls.myshopify.com',
-                    storefrontAccessToken: '8ab5e845da5ab66a98b325277620e500',
-                  });
-                  ShopifyBuy.UI.onReady(client).then(function(ui) {
-                    ui.createComponent('product', {
-                      id: '6674492719290',
-                      node: document.getElementById('product-component-1622111684465'),
-                      moneyFormat: '%24%7B%7Bamount%7D%7D',
-                      options: {
+              } else {
+                loadScript();
+              }
+              function loadScript() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = scriptURL;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                script.onload = ShopifyBuyInit;
+              }
+              function ShopifyBuyInit() {
+                var client = ShopifyBuy.buildClient({
+                  domain: 'on-a-roll-egg-rolls.myshopify.com',
+                  storefrontAccessToken: '8ab5e845da5ab66a98b325277620e500',
+                });
+                ShopifyBuy.UI.onReady(client).then(function (ui) {
+                  ui.createComponent('product', {
+                    id: '6719172673722',
+                    node: document.getElementById('product-component-1624868351886'),
+                    moneyFormat: '%24%7B%7Bamount%7D%7D',
+                    options: {
                         "product": {
                           "styles": {
                             "product": {
